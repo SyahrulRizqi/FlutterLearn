@@ -53,9 +53,67 @@ class MyApp extends StatelessWidget {
                       ),
                     )
                   ],
-                )
+                ),
                 // listview dengan text
+                ListView(
+                  children: <Widget>[
+                    Column(
+                      children: <Widget>[
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          child: Text(
+                            "Text yang ada di lapisan tengah stack.",
+                            style: TextStyle(fontSize: 30),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          child: Text(
+                            "Text yang ada di lapisan tengah stack.",
+                            style: TextStyle(fontSize: 30),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          child: Text(
+                            "Text yang ada di lapisan tengah stack.",
+                            style: TextStyle(fontSize: 30),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          child: Text(
+                            "Text yang ada di lapisan tengah stack.",
+                            style: TextStyle(fontSize: 30),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          child: Text(
+                            "Text yang ada di lapisan tengah stack.",
+                            style: TextStyle(fontSize: 30),
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.all(10),
+                          child: Text(
+                            "Text yang ada di lapisan tengah stack.",
+                            style: TextStyle(fontSize: 30),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
                 // button
+                Align(
+                  alignment: Alignment(0, 0.70),
+                    child: ElevatedButton(
+                        onPressed: null,
+                        child: Text(
+                          "Button",
+                          style: TextStyle(color: Colors.lightBlue),
+                        )))
               ],
             )));
   }
